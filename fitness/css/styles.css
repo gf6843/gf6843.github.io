@@ -65,14 +65,41 @@ nav li a {
     text-decoration: none;
 }
 
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
 /* Style rules for main content */
 main {
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
-    font-family: 'Robo Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
 .action {
     font-size: 1.35em;
     color: #666600;
@@ -80,26 +107,13 @@ main {
 }
 
 #weights, #cardio, #training {
-    width: 29%;
-    float: left;
-    margin: 0 2%;
+       margin: 0 2%;
 }
 
-#exercises {
-    clear: left;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    background-color: #f2f2f2;
-    padding: 1% 2%;
+.round {
+    border-radius: 8px;
 }
 
-#exercises dt {
-    font-weight: bold;
-}
-
-#exercises dd {
-    padding: 0.5% 1% 2% 0;
-}
 
 .external-link {
     color: #666600;
@@ -111,13 +125,15 @@ main {
     text-align: center;
 }
 
-#contact a {
+#contact .contact-email-link {
     color: #666600;
     text-decoration: none;
 }
 
 .map {
-    border: 8px solid #000;
+    border: 2px solid #000;
+    width: 95%;
+    height: 50;
 }
 
 /* Style rules for footer content */
@@ -132,3 +148,19 @@ footer p a {
     color: #fff;
     text-decoration: none;
 }
+
+/* #exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+}
+
+#exercises dd {
+    padding: 0.5% 1% 2% 0;
+} */
